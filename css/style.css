@@ -6,7 +6,7 @@
 
 /* navbar et backround */
 .container {
-    background: url(../images/coffee_background.jpg);
+    background: url(../images/last1.png);
     height: 100vh;
     width: 100%;
     background-size: cover;
@@ -73,11 +73,6 @@ a:hover {
 
 .menu1 {
     display: flex;
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, auto);
-    color: rgb(0, 0, 0);
-    padding: 10px;
-    text-align: center; */
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 100px;
     margin-top: 4%;
@@ -180,8 +175,9 @@ h1.location {
 }
 
 /* contact */
+
 .contact11 {
-    background: url(../images/cfff.jpg);
+    background: url(../images/last2.png);
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
@@ -502,7 +498,7 @@ h1.location {
     border: none;
     background: rgba(115, 74, 57, 0.88);
     box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
-    margin-left: 90px;
+    margin-left: 70px;
     margin-top: 5px;
 }
     .sendForm{}

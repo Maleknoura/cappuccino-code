@@ -5,6 +5,13 @@
 }
 
 /* navbar et backround */
+/* .menu-back{
+    background: rgba(88, 29, 1, 0.28);
+    width: 200px;
+    height: 666px;
+    border-radius: 109px;
+   
+} */
 .container {
     background: url(../images/last1.png);
     height: 100vh;
@@ -503,5 +510,4 @@ h1.location {
 }
     .sendForm{}
   /* contact end */
-  /*=================
-  |====         =====*/
+ 

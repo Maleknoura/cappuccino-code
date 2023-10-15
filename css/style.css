@@ -5,7 +5,7 @@
 }
 
 /* navbar et backround */
- /* .back-menu{
+/* .back-menu{
     background: rgba(88, 29, 1, 0.28);
     width: 600px;
     height: 490px;
@@ -15,26 +15,29 @@
 }  */
 .container {
     background: url(../images/last1.png);
-    height: 80vh;
+    /* height: 80vh; */
     width: 100%;
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
     color: #fff;
     margin: 0;
-    
+
 }
- .title-menu h1{
-position: relative;
-left: 65px;
-top: 35px;
-} 
-.h1{
+
+.title-menu h1 {
+    /* position: relative; */
+    left: 65px;
+    top: 35px;
+}
+
+.h1 {
     margin-top: 120px;
     margin-left: 170px;
 }
-.bienv{
-  
+
+.bienv {
+
     margin-left: 27%;
     margin-top: 3%;
     font-family: "Princess Sofia", cursive;
@@ -44,6 +47,7 @@ top: 35px;
     font-size: 35px;
 
 }
+
 .header {
     background: rgba(0, 0, 0, 0.8);
     padding: 0;
@@ -54,7 +58,7 @@ top: 35px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1300px;
+    max-width: 1300px; 
     margin: 0;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.751) 0%, rgba(0, 0, 0, 0.422) 100%);
 
@@ -95,53 +99,56 @@ a:hover {
 
 .menu1 {
     display: flex;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin-left: 100px;
-    margin-top: 4%;
+    /* margin-top: 4%; */
     color: black;
 }
-.menu2 { 
+
+.menu2 {
     display: flex;
     margin-left: 100px;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
-    margin-top: 4%;
+     /* margin-top: 50px;  */
 
 
 }
+
 .menu-section {
-  
+
     display: flex;
 
     flex-direction: column;
 
     align-items: flex-start;
-   
+
 }
 
 .menu-section h2 {
     font-size: 24px;
-    width: 300px;
+     width: 300px; 
 }
 
 .menu-section ul {
     list-style: none;
     padding: 0;
-    width: 600%;
+      width: 100%;  
 }
 
 .menu-section li {
     font-size: 18px;
     margin: 5px;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
+
 .menu-section li {
     font-size: 18px;
     margin: 5px;
 }
 
 .menu-section li span.menu-price {
-    margin-left: 20px; 
+    margin-left: 20px;
 }
 
 a:hover {
@@ -153,7 +160,7 @@ a:hover {
     flex-direction: column;
     align-items: flex-start;
     font-size: 19px;
-  
+
 }
 
 .menu-section ul {
@@ -203,10 +210,12 @@ h1.location {
     background: url(../images/image\ 1.png);
     height: 100vh;
 }
-.aa1{
-   margin-top: 40px;
+
+.aa1 {
+    margin-top: 40px;
     border: none;
 }
+
 .home-11 {
     color: #FFF;
     font-family: Poppins;
@@ -344,7 +353,7 @@ h1.location {
     align-items: center;
 }
 
- .right {
+.right {
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -352,7 +361,7 @@ h1.location {
     gap: 30px;
     font-family: Irish Grover;
     font-size: 40px;
-} 
+}
 
 /* page 4 de l acceuil */
 .menumenu {
@@ -410,6 +419,7 @@ h1.location {
 .capucp {
     text-align: center;
 }
+
 /* page 5 de l acceuil */
 .customers {
     background: url(../images/top-view-bowls-with-coffee-beans-powder\ 1.png);
@@ -439,7 +449,7 @@ h1.location {
     height: 260px;
     width: 80%;
     margin: auto;
-  
+
     flex-shrink: 0;
 
 
@@ -453,45 +463,49 @@ h1.location {
     text-align: center;
 
 }
+
 /* location start */
-.map1{
+.map1 {
     background: #E3D9D5;
     height: 80vh;
     width: 100%;
     background-size: cover;
     background-position: center;
     box-shadow: 20px 20px 10px 0px rgba(62, 47, 25, 0.20);
-  
+
 }
+
 /* location end */
 /* fotter start */
-.fotter{
-    position: relative;
-    background:linear-gradient(to right bottom, 
-    rgba(31, 33, 34, 0.8),
-    rgba(40, 40, 40, 0.8)), url(../images/image\ 9\ \(1\).png);
+.fotter {
+    /* position: relative; */
+    background: linear-gradient(to right bottom,
+            rgba(31, 33, 34, 0.8),
+            rgba(40, 40, 40, 0.8)), url(../images/image\ 9\ \(1\).png);
     background-size: cover;
     height: 70vh;
-  }
+    
+}
 
 .fouter {
     display: flex;
     justify-content: space-around;
-    align-items:  start;
+    align-items: start;
     padding: 50px;
 }
-.fouter ul{
+
+.fouter ul {
     display: block;
 }
 
-.fouter ul li{
+.fouter ul li {
     padding: 15px;
 }
 
-  /* fotter end */
-  /* contact start */
+/* fotter end */
+/* contact start */
 
-  .contact11 {
+.contact11 {
     background: url(../images/last2.png);
     background-size: cover;
     background-position: center;
@@ -500,27 +514,31 @@ h1.location {
     color: #fff;
 
 }
-    .formContact{
+
+.formContact {
     display: flex;
     margin: 0 10%;
     margin-top: 10%;
 }
-    .formContact form{
+
+.formContact form {
     display: flex;
     flex-direction: column;
     gap: 3rem;
     width: 350px;
 }
-    .formContact form input,
-    .formContact form textarea{
+
+.formContact form input,
+.formContact form textarea {
     background: none;
     border: none;
     color: rgba(245, 222, 179, 0.655);
     border-bottom: rgba(255, 255, 255, 0.219) 2px solid;
 }
-.btt{
+
+.btt {
     width: 190px;
-     height: 35px;
+    height: 35px;
     flex-shrink: 0;
     border-radius: 20px;
     border: none;
@@ -529,6 +547,7 @@ h1.location {
     margin-left: 70px;
     margin-top: 5px;
 }
-    .sendForm{}
-  /* contact end */
- 
+
+.sendForm {}
+
+/* contact end */

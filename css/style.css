@@ -5,16 +5,9 @@
 }
 
 /* navbar et backround */
-/* .back-menu{
-    background: rgba(88, 29, 1, 0.28);
-    width: 600px;
-    height: 490px;
-    border-radius: 15px;
-    
-   
-}  */
+
 .container {
-    background: url(../images/last1.png);
+    background: url(../images/vv.png);
     /* height: 80vh; */
     width: 100%;
     background-size: cover;
@@ -31,10 +24,6 @@
     top: 35px;
 }
 
-.h1 {
-    margin-top: 120px;
-    margin-left: 170px;
-}
 
 .bienv {
 
@@ -110,7 +99,7 @@ a:hover {
     margin-left: 100px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
-     /* margin-top: 50px;  */
+     
 
 
 }
@@ -261,7 +250,6 @@ h1.location {
     width: 100%;
     background-size: cover;
     background-position: center;
-    /* position: relative; */
     font-family: Arial, sans-serif;
     color: #fff;
 }
@@ -478,7 +466,7 @@ h1.location {
 /* location end */
 /* fotter start */
 .fotter {
-    /* position: relative; */
+    
     background: linear-gradient(to right bottom,
             rgba(31, 33, 34, 0.8),
             rgba(40, 40, 40, 0.8)), url(../images/image\ 9\ \(1\).png);
@@ -506,9 +494,9 @@ h1.location {
 /* contact start */
 
 .contact11 {
-    background: url(../images/last2.png);
-    background-size: cover;
-    background-position: center;
+    background: url(../images/img.jpg);
+     background-size: cover; 
+    background-position: left;
     font-family: Arial, sans-serif;
     margin: 0;
     color: #fff;
@@ -517,23 +505,24 @@ h1.location {
 
 .formContact {
     display: flex;
-    margin: 0 10%;
-    margin-top: 10%;
+    margin-left: 40%;
+   
 }
 
 .formContact form {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    width: 350px;
+    width: 550px;
 }
 
 .formContact form input,
 .formContact form textarea {
     background: none;
     border: none;
-    color: rgba(245, 222, 179, 0.655);
-    border-bottom: rgba(255, 255, 255, 0.219) 2px solid;
+    color: rgba(242, 240, 236, 0.116);
+    border-bottom: rgba(255, 255, 255, 0.564) 2px solid;
+ 
 }
 
 .btt {
@@ -544,10 +533,17 @@ h1.location {
     border: none;
     background: rgba(115, 74, 57, 0.88);
     box-shadow: 0px 2px 20px 4px rgba(0, 0, 0, 0.25);
-    margin-left: 70px;
+    margin-left: 20px;
     margin-top: 5px;
 }
 
-.sendForm {}
+.h1 {
+    margin-top: 90PX;
+    margin-left: 490PX;
+    margin-bottom: 40px;
+   
+   
+}
+
 
 /* contact end */
